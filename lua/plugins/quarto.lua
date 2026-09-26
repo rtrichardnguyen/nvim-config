@@ -36,7 +36,7 @@ return {
       {
         "<localleader>nc",
         function()
-          vim.api.nvim_put({ "", "```{python}", "", "```" }, "l", true, true)
+          vim.api.nvim_put({ "", "```{python}", "", "", "", "```" }, "l", true, true)
           vim.cmd("normal! k")
           vim.cmd("startinsert")
         end,
